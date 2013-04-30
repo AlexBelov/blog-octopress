@@ -5,13 +5,13 @@ body > nav {
   border: {
     top: 1px solid $nav-border-top;
     bottom: 1px solid $nav-border-bottom; }
-  padding-top: .35em;
-  padding-bottom: .35em;
+  padding-top: .15em;
+  padding-bottom: .15em;
   form {
     @include background-clip(padding-box);
     margin: 0; padding: 0;
     .search {
-      padding: .3em .5em 0;
+      padding: .1em .5em .1em;
       font-size: .85em;
       font-family: $sans;
       line-height: 1.1em;
@@ -37,7 +37,7 @@ body > nav {
   }
   ul { display: none; }
   @media only screen and (min-width: 550px) {
-    font-size: .9em;
+    font-size: .75em;
     ul {
       @include horizontal-list(0);
       float: left;
@@ -59,7 +59,6 @@ body > nav {
       float: left;
       text-decoration: none;
       font-size: 1.1em;
-      padding: .1em 0;
       line-height: 1.5em;
     }
     li + li {
